@@ -29,7 +29,7 @@ const options = {
         if(userSelectedDate < currentDate){
 
 btnStart.setAttribute('disabled', true);
-;
+
 iziToast.show({
     title: 'Please choose a date in the future',
     titleColor: 'white',
