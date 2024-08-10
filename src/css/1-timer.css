@@ -17,19 +17,19 @@ button {
     height: 40px;
     border-radius: 8px ;
     padding: 8px 16px;
-    background-color: #cfcfcf;
-    border-color: #cfcfcf;
+    background-color: #6c8cff;
+    border-color: #6c8cff;
     font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.04em;
-color: #989898;
+color: white;
 }
 
-button:hover,
-button:focus {
-    outline: none;
+button:disabled{
+    background-color: #cfcfcf;
+    border-color: #cfcfcf;
+    color: #989898;
 }
-
 .timer{
     display: flex;
     gap: 24px;
